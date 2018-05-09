@@ -1,0 +1,294 @@
+{
+    "Mean_Of_RecHits_TEC_Glb": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 5.268490032336958, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.002112690274345997, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 4.699979266522752, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.008969485886251542, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 5.790196432719857, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.01761929319651453, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 5.633953427728361, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.0025882470423668757, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 0.08517843188330294, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.007991173112563843, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 5.063731888859849, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.003578167356970328, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 4.7492820053390705, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.005028198127945198, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 5.766563676094266, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.009110025742288355, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 5.579877938086268, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.0026496100103764503, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 5.005864857609002, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.0035299186776629726, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 4.795680696487403, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.006272393982510034, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 4.642670573995031, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.04628011987561394, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 4.724066355863796, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.008343946840518972, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 5.711026648789555, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.010131689489957504, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 5.714446626329482, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.010885211227055429, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 5.683526659305339, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.008047326218444324, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.0, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 5.47907975842102, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.008260766863894767, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 5.397766303258186, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.005352959642700529, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 5.769754768392371, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.2168485798262392, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 5.18763767409021, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.008833874413091561, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 5.709159898052883, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.009050178235934252, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 5.749816892178405, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.037243542171599815, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 5.5572793103457965, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.003152704215917505, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 5.378851970367773, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.01970225057670263, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 5.267837844137141, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.006554775978800604, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 4.90043986062803, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.0029316346212417887, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 4.73798598063304, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.024743492029845444, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 9.999952117544588, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TEC", 
+            "yErr": 0.004132886075398325, 
+            "yTitle": "Global: mean of the rec hits TEC"
+        }
+    ]
+}

@@ -1,0 +1,294 @@
+{
+    "nsegments": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 8.333944837475968, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.0017589073017682056, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 4.724454453759987, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.005340742475657125, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 11.189964422813778, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.016658268159624623, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 10.50156108519227, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.002345376815187638, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.0, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 6.929914142190508, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.0024888070908392164, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 5.094434472342009, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.0030411003278095405, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 11.17934282909193, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.00857710586738252, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 10.119016692560328, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.002333527363770307, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 6.635201891832099, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.0023832065941278594, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 5.0478345793426005, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.0037283873738387795, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 4.734517477203648, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.02746227116498127, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 4.58836174430726, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.00482013834415001, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 11.112654504103629, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.009621613385444087, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 11.091203331711236, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.010272190762513936, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 11.029650036865599, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.007523734354520528, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.0, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 10.403770866799073, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.0072186149350671296, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 9.445743412194652, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.004464342740214877, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 8.387587822014051, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.17491146386893644, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 7.4636114267933005, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.006672058803749687, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 11.07747128526367, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.008516987902248118, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 11.144174029536538, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.03445351011137725, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 10.42375112763604, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.00281585724700128, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 8.868548078363489, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.015536407874015506, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 8.44324897336898, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.0050110292912684574, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 6.284108753949853, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.001976295065504967, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 4.741644182589065, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.014829011095342879, 
+            "yTitle": "no. of segments per event"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 3.0324054944954044, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "no. of segments per event", 
+            "yErr": 0.002091583239153458, 
+            "yTitle": "no. of segments per event"
+        }
+    ]
+}

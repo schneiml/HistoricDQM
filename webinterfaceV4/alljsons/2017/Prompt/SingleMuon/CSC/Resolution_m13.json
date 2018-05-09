@@ -1,0 +1,294 @@
+{
+    "Resolution_m13": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 0.0688371828667737, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 9.118683518960566e-05, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 0.06811965739673945, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0004082169613668116, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 0.07271833950921568, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0008155683977715897, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 0.06948423906194945, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00011244523222342683, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 0.06786772064786895, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0001505616050226235, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 0.07239249987517533, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00023711934106002982, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 0.06874452438790667, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00039050565152071626, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 0.06656266879518077, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00010935773703562339, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 0.0714969614080147, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00015621268682720375, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 0.07258309416664485, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0002934717066698717, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 0.07137621126536106, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00038994662095967773, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 0.06781800130375577, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.000438092008349668, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 0.06924080608292207, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0004775568724322071, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 0.06744006218859351, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00033987891554579494, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 0.06647075157956311, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00033675183298908406, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 0.06882312505122373, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00022895550172281236, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 0.06835295423729536, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.000380573523270278, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 0.06712006631597546, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00037950631303363465, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 0.06905003605681007, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0001347041505280584, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 0.0686823149962258, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0008260003615186402, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 0.07093977098794624, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.0002846714949364336, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 0.07098943001956848, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00013207707267261917, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 0.0638729670045361, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.001039994992692611, 
+            "yTitle": "resolution ME-13"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 0.06150093774131673, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-13", 
+            "yErr": 0.00017902553177175762, 
+            "yTitle": "resolution ME-13"
+        }
+    ]
+}

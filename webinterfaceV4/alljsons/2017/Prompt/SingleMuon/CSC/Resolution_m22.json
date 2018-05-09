@@ -1,0 +1,294 @@
+{
+    "Resolution_m22": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 0.12045045809519757, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 7.71554508605496e-05, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 0.12155080654878672, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.00034951199909746984, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 0.12072730890461124, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0006436067212554886, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 0.11997013810557602, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 9.319379705098034e-05, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 0.12236646811096884, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0001326021966373335, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 0.11984398676104523, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0001906179644358549, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 0.11764332628733161, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.00032177112756884047, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 0.11880524050374633, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 9.410411281872737e-05, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 0.12220873297032848, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.00013095740620445472, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 0.12245784421852575, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0002416098862905777, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 0.1109597949224111, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0016417332641451223, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 0.12653598869124183, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.00033643908748863494, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 0.1210158621415465, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.00037388346870611606, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 0.12048499593785085, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0004003066801786476, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 0.12131219306620553, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0002955951527463613, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 0.11753297850583362, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0002879724361474101, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 0.12009277511341002, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.00019318008745504984, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 0.12200337079820822, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.00032823180995059206, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 0.12073975775471725, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.00033057433261594215, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 0.11745760628376493, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0013094566689371603, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 0.12108403423943541, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.00011459654447472205, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 0.12377081124724464, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0007298081291130948, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 0.12249965010472368, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.00024065846468789514, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 0.12339851717826128, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0001123744603292642, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 0.12077190049921559, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0009705016387689335, 
+            "yTitle": "resolution ME-22"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 0.11101102412233907, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "resolution ME-22", 
+            "yErr": 0.0001560054765129433, 
+            "yTitle": "resolution ME-22"
+        }
+    ]
+}

@@ -1,0 +1,294 @@
+{
+    "Mean_Tight_DimuonMass_Barrel": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 87.54291180125013, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.026819425509673714, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 87.33731371261169, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.11476927775458409, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 87.04718178633165, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.26039499473679695, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 87.60950378461347, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.03449096075897362, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 87.97190473798061, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.6453649000771784, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 87.4511291156001, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.043753918623291706, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 87.50822496545344, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.0632944411576426, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 87.50860507091252, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.12661971537184166, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 87.64665769980222, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.034672012800173624, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 87.58568747118805, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.04259709329957496, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 87.48104082536808, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.07814799468302837, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 87.06813900287335, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.6103400094464388, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 87.52741436641709, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.10434544883813857, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 87.6265907375074, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.14198514216761476, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 87.58406556697783, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.1472206598131799, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 87.70254816648414, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.10840152763171171, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 87.37089469719909, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.11071855626071746, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 87.62358255814941, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.06825526093653679, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 91.90939824721393, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.643251130288822, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 87.62839991028936, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.10866735110604364, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 87.44105992148191, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.12552975735171398, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 87.40525573802785, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.5145623600287207, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 87.56102826688186, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.041059828171250576, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 87.48366712674392, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.24482452259296184, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 87.57226582015132, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.08053275281989895, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 87.56472161311235, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.03570847122635757, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 87.26818333832483, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 0.3185709743567099, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 86.85230255126953, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "Mean of the dimuon mass tight-tight", 
+            "yErr": 1.340548933739488, 
+            "yTitle": "Mean of the dimuon mass tight-tight"
+        }
+    ]
+}

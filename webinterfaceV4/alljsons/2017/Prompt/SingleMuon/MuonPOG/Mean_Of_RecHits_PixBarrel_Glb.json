@@ -1,0 +1,294 @@
+{
+    "Mean_Of_RecHits_PixBarrel_Glb": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 2.486278116390887, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.000467939622582079, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 2.713273084287683, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0018877199391793117, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 2.317123116766905, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0039799075919900945, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 2.358401822520665, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0005864515688033271, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 3.2927845793175305, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.015665733961818036, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 2.587506173095447, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0007829738199816702, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 2.6975085849650937, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0010732453548448406, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 2.298463448345882, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.002038629106808936, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 2.3502724462098197, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.000592924420643951, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 2.5687640386577817, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0007619344621595339, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 2.672576270755549, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0013203782819319182, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 2.7070140791233994, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.009655584414315778, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 2.69403077277894, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0017425159647850188, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 2.35337411309767, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0023287860576791776, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 2.3543591737190286, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0025017964705932568, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 2.3572139194699844, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0018551992061959718, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 2.414128167610983, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0019104367100522368, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 2.4734575955878246, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0012298591390134046, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 2.4141689373297, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.04878245404939051, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 2.5940460201747526, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.001967515561237568, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 2.359578838416568, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0020798392294139106, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 2.355460467985043, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.008541656193375774, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 2.3939596838541903, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0007263692284218258, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 2.4929864550913954, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0044677292965538025, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 2.5206939232646093, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.001482768189089565, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 2.6678921097341606, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0006481141042497783, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 2.7651936696054342, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.005255841400894938, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 1.7092828120226005, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits in Barrel Pixel", 
+            "yErr": 0.0009156289723101625, 
+            "yTitle": "Global: mean of the rec hits in Barrel Pixel"
+        }
+    ]
+}

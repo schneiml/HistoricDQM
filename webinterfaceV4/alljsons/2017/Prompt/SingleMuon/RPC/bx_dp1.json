@@ -1,0 +1,294 @@
+{
+    "bx_dp1": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 0.00040279489220636184, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0010415309059933402, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 0.001725636407149425, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.00029452931003801585, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 0.2355206327730655, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.13675666846003032, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 0.009534550037930625, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.004308713414555996, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 0.008924566299861674, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.004934229174589538, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 0.01313599161516053, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.00826846592485831, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 0.01797872631319898, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.020768768158900275, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": -0.0022884802909576476, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0001942126410858061, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 0.00597975662044483, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.003910505582225047, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 0.0014909108327545327, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.00021225396961594217, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 0.00033875338753387534, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.002221345763735597, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 0.001439861069893714, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.00026397706954048566, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": -0.003879779502124223, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0008632880350259284, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": -0.0034429992348890587, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0009036804450704081, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": -0.002561319730844367, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0006714342093920129, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": -0.0022752151795488204, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0006119693533973075, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": -0.0008372084558054036, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0003576881955661109, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 0.018266424230824443, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.018152360126971027, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": -0.0029218810298252385, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0007680404314777591, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": -0.0030176415970287838, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0029813615338611338, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 4.7880795970352214e-05, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.002435318932989928, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.001142041311600525, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": -0.0005984284747879481, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.00037872218425089396, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 0.007082076655693325, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.003455251889942891, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 0.001373356876594075, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.0007469600438576356, 
+            "yTitle": "Cluster Size"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 0.0028601777924825646, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "Cluster Size", 
+            "yErr": 0.00014247770139611112, 
+            "yTitle": "Cluster Size"
+        }
+    ]
+}

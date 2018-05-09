@@ -1,0 +1,294 @@
+{
+    "segchi2": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 2.995550537703151, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0007422705915484174, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 2.7497445266078455, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.00391442036387055, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 3.1195618439028165, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.005789558566459089, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 3.1120355029482107, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0008613533704511652, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 2.8641836141089203, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0012913036781503988, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 2.750199630447133, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0020828202073724933, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 3.1328087357877856, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0029957858069275625, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 3.081405042075788, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0008778189594825752, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 2.84509121018449, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.00127723850509637, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 2.7508486601160027, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0025731174099595964, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 2.717473658888406, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.01976719387562025, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 2.720421853618928, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0036085707041579136, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 3.139446818374381, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0033933128136362997, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 3.1352743140060912, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0036113798827899987, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 3.1306981803278875, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.002670189780914741, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 3.0892172626892767, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.002690420704441815, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 3.020448947721841, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0017942789965196661, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 2.888215154328362, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.07826892177097504, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 2.9027306216238586, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0031453444409908814, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 3.1268027499884883, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.002984821007781664, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 3.1132610481014207, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.012035092972205414, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 3.0946285043949486, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0010383823964453499, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 2.986964639325791, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.006618948502503287, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 2.954719976507466, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.0022163516680016116, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 2.8256751819315524, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.001105063132424226, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 2.7306940567453792, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.010701863660517905, 
+            "yTitle": "segment chi2"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 2.2701511139230255, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "segment chi2", 
+            "yErr": 0.002121207901137242, 
+            "yTitle": "segment chi2"
+        }
+    ]
+}

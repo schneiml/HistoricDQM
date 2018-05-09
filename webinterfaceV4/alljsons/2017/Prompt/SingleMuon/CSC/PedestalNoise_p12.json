@@ -1,0 +1,294 @@
+{
+    "PedestalNoise_p12": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 6.365950378825526, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0003451297623637151, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 4.8939913727558535, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0013108070246957242, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 6.375671380819878, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.002756415801766835, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 7.373721691154886, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0004683449750388156, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 6.830271411806024, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.000646844313115287, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 4.443478462909536, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0006487089928500101, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 7.64251923240732, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0016942674690311502, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 7.500069921675272, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.00048689157515651593, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 5.7216494845813095, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0005363344394810666, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 4.113619356322229, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0007419163153313286, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 5.533872869830224, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.007620506193805838, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 5.199765415854341, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0012963075497657288, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 7.215238480815809, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.001798442533571968, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 6.3239073133663775, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0016886223913269319, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 9.281042127608247, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.001826842937209964, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 8.165665445700858, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0016200537948743063, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 7.021392886533606, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0009367380652414482, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 3.609218036143827, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.01996634979204813, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 5.610820257577921, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0012998429547222696, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 8.222829969434741, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0018147011363133828, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 12.965169368094935, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.011663957350369687, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 7.079520745211531, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0005437847926555587, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 6.374591201259589, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0031125347357395055, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 5.261835472744206, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0008663405582746994, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 5.555703157060162, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.00044523006666754287, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 2.835800816687656, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0020911984571834416, 
+            "yTitle": "pedestal width ME+12"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 2.112300048660819, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "pedestal width ME+12", 
+            "yErr": 0.0002945809497342259, 
+            "yTitle": "pedestal width ME+12"
+        }
+    ]
+}

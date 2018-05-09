@@ -1,0 +1,294 @@
+{
+    "MeanT0_MB1_YB0": [
+        {
+            "run": 306125, 
+            "ymax": 25.0, 
+            "y": 0.723539778819451, 
+            "x": 1.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 25.0, 
+            "y": -1.6226093677374034, 
+            "x": 2.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 25.0, 
+            "y": 1.973671285005716, 
+            "x": 3.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 25.0, 
+            "y": 1.6110381071384137, 
+            "x": 4.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 25.0, 
+            "y": -1.1393159811313336, 
+            "x": 5.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 25.0, 
+            "y": -0.2574549214198039, 
+            "x": 6.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 25.0, 
+            "y": -0.8890857742382929, 
+            "x": 7.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 25.0, 
+            "y": 2.2842394572037916, 
+            "x": 8.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 25.0, 
+            "y": 1.6535958418479333, 
+            "x": 9.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 25.0, 
+            "y": -0.05163222594329944, 
+            "x": 10.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 25.0, 
+            "y": -0.8016698154119345, 
+            "x": 11.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 25.0, 
+            "y": -1.25758447096898, 
+            "x": 12.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 25.0, 
+            "y": -1.2584263246793013, 
+            "x": 13.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 25.0, 
+            "y": 2.259146351080674, 
+            "x": 14.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 25.0, 
+            "y": 2.430688839692336, 
+            "x": 15.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 25.0, 
+            "y": 2.2868375869897695, 
+            "x": 16.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 25.0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 25.0, 
+            "y": 1.7986140205309942, 
+            "x": 18.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 25.0, 
+            "y": 1.677407402258653, 
+            "x": 19.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 25.0, 
+            "y": 2.193499792080659, 
+            "x": 20.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 25.0, 
+            "y": 0.4939800351858139, 
+            "x": 21.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 25.0, 
+            "y": 2.5358049869537354, 
+            "x": 22.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 25.0, 
+            "y": 1.4963932189230735, 
+            "x": 23.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 25.0, 
+            "y": 2.212799356533931, 
+            "x": 24.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 25.0, 
+            "y": 1.5340208342442145, 
+            "x": 25.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 25.0, 
+            "y": 1.534629803437453, 
+            "x": 26.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 25.0, 
+            "y": 0.17786651391249436, 
+            "x": 27.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 25.0, 
+            "y": -0.3242453600351627, 
+            "x": 28.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 25.0, 
+            "y": 0.43039486614557415, 
+            "x": 29.0, 
+            "ymin": -25.0, 
+            "hTitle": "Mean of t0 distribution for MB1s", 
+            "yErr": 0.0, 
+            "yTitle": "Mean of t0 distribution for MB1s"
+        }
+    ]
+}

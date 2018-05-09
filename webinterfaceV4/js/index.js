@@ -321,6 +321,26 @@ $(document).ready(
 						&& subsystem == "Strips"
 						&& (apvMode == "PEAK")) {
 						load_dataset("StripPeak");
+					} else if (dataSet == "SingleMuon"
+						   && subsystem == "DT"
+						   && (apvMode == "" || apvMode == null)) {
+					    load_dataset("SingleMuonDT");
+					} else if (dataSet == "SingleMuon"
+						   && subsystem == "MuonPOG"
+						   && (apvMode == "" || apvMode == null)) {
+					    load_dataset("SingleMuonMuonPOG");
+					} else if (dataSet == "DoubleMuon"
+						   && subsystem == "MuonPOG"
+						   && (apvMode == "" || apvMode == null)) {
+					    load_dataset("DoubleMuonMuonPOG");
+					} else if (dataSet == "SingleMuon"
+						   && subsystem == "CSC"
+						   && (apvMode == "" || apvMode == null)) {
+					    load_dataset("SingleMuonCSC");
+					} else if (dataSet == "SingleMuon"
+						   && subsystem == "RPC"
+						   && (apvMode == "" || apvMode == null)) {
+					    load_dataset("SingleMuonRPC");
 					} else if ((dataSet == "StreamExpress")
 						&& subsystem == "Strips"
 						&& (apvMode == "DECO")) {

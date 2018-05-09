@@ -1,0 +1,294 @@
+{
+    "SigmaRes_Theta_YB1": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 0.027265353847184242, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00030769315066953435, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 0.026486785910733317, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00027517671194902683, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 0.027177543145075367, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0003313975622393685, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 0.02755654466065004, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00032725156557894693, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 0.024969265272898965, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0003542494197527338, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 0.026876979632717662, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0002962062735515771, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 0.026719126716739282, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00028205447572177036, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 0.02768455109376335, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0003384939608047481, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 0.02758450917240614, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0003230238605795418, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 0.026995634658970872, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0002924762464026654, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 0.026828625309977885, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00028113212583846667, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 0.024734207061909833, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00039111422178423943, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 0.026635638730899965, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0002651532355546773, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 0.027804786717525606, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00033919273320528673, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 0.027739136329089906, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0003341683741573017, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 0.027936331617267513, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00033970559519916257, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 0.0277713550298143, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00033871663632901213, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 0.02764733824479845, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00031418664216402784, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 0.06820816884833729, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.004797062503683058, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 0.027256310256445607, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00030759619357100226, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 0.02793988994711051, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00033810123923723765, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 0.026744149386246887, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0003595494312975396, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 0.027927774267894518, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00032314403285690235, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 0.027285811717434882, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.0003141294232263757, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 0.027577570940665482, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00030864639804864313, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 0.027207527029661883, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00028741375885122267, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 0.02636959637780451, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00031387278454718533, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 0.028104352673246555, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "Sigma of residuals distributions for theta superlayers", 
+            "yErr": 0.00022262338575941004, 
+            "yTitle": "Sigma of residuals distributions for theta superlayers"
+        }
+    ]
+}

@@ -1,0 +1,294 @@
+{
+    "Mean_Of_RecHits_TID_Glb": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 1.6195743344175881, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0008686662041786387, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 1.427699925603405, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0035999703958493694, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 1.7883637489997677, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.007368665589010267, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 1.7183639322469, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0010655912347688056, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 0.005209690023443605, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0015165434995117592, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 1.5274674056858373, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.001435002855158672, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 1.4422862219052957, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0020113826138048944, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 1.7791048357881085, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0038054118017496617, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 1.719924821694763, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0011033659121791504, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 1.5429254610165342, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0014446118121585843, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 1.4834123167982287, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0025521234192278325, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 1.4256227304580493, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.01851452255106462, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 1.4574979819778264, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.00338088487072745, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 1.7591308501027167, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.004221970931507359, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 1.76270172745487, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0045374850437173205, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 1.755950103313691, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.003361377641771555, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 1.6939422358508187, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.003439729550748889, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 1.6680079474377894, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0022227459040575575, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 1.8651226158038148, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.09414994166211695, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 1.5908921837866974, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0036085855801342706, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 1.7541819614057343, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0037687001181198, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 1.7675494391118307, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.015490101523062115, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 1.7071261440428882, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0013075280803173219, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 1.6425503002673913, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.008082508365096018, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 1.6141272413458931, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.002687089015671424, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 1.512202433177273, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0011970823273950108, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 1.4677518427518428, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.010034310492274951, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 2.6458915713197775, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "Global: mean of the rec hits TID", 
+            "yErr": 0.0020049691350244605, 
+            "yTitle": "Global: mean of the rec hits TID"
+        }
+    ]
+}

@@ -1,0 +1,294 @@
+{
+    "nstripdigis": [
+        {
+            "run": 306125, 
+            "ymax": 0, 
+            "y": 146.41499542275233, 
+            "x": 1.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.0262144949651208, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306126, 
+            "ymax": 0, 
+            "y": 77.00108335423549, 
+            "x": 2.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.0735121874401749, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306134, 
+            "ymax": 0, 
+            "y": 200.90733659272627, 
+            "x": 3.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.23828827364138433, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306135, 
+            "ymax": 0, 
+            "y": 188.34667653158627, 
+            "x": 4.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.03385628213824033, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306137, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 5.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.0, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306138, 
+            "ymax": 0, 
+            "y": 120.47701634706033, 
+            "x": 6.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.035481229620570924, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306139, 
+            "ymax": 0, 
+            "y": 83.91422739312216, 
+            "x": 7.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.041777788504244, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306153, 
+            "ymax": 0, 
+            "y": 199.35259237326434, 
+            "x": 8.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.12181174616797427, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306154, 
+            "ymax": 0, 
+            "y": 179.6621101343682, 
+            "x": 9.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.033529003213427, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306155, 
+            "ymax": 0, 
+            "y": 113.5139395647004, 
+            "x": 10.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.03356986240219339, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306169, 
+            "ymax": 0, 
+            "y": 82.65035428697244, 
+            "x": 11.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.050951578109448725, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306170, 
+            "ymax": 0, 
+            "y": 76.58615121580547, 
+            "x": 12.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.3695162863394688, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306171, 
+            "ymax": 0, 
+            "y": 73.9253315617901, 
+            "x": 13.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.06535226046503258, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306418, 
+            "ymax": 0, 
+            "y": 197.29357015722337, 
+            "x": 14.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.13585874627219569, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306419, 
+            "ymax": 0, 
+            "y": 196.78442051537408, 
+            "x": 15.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.14526902447363918, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306420, 
+            "ymax": 0, 
+            "y": 195.65250273050177, 
+            "x": 16.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.10620877799849832, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306421, 
+            "ymax": 0, 
+            "y": 0.0, 
+            "x": 17.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.0, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306422, 
+            "ymax": 0, 
+            "y": 184.01328784504244, 
+            "x": 18.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.10167306161664513, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306423, 
+            "ymax": 0, 
+            "y": 165.9727922036289, 
+            "x": 19.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.06292564139348893, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306425, 
+            "ymax": 0, 
+            "y": 147.97306791569088, 
+            "x": 20.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 2.5030085119256715, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306432, 
+            "ymax": 0, 
+            "y": 128.0009284438672, 
+            "x": 21.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.09561153787747156, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306454, 
+            "ymax": 0, 
+            "y": 195.1330112615531, 
+            "x": 22.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.11939947331993883, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306455, 
+            "ymax": 0, 
+            "y": 196.8697330228701, 
+            "x": 23.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.4830670480470518, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306456, 
+            "ymax": 0, 
+            "y": 182.89277085851364, 
+            "x": 24.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.03961842967149924, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306457, 
+            "ymax": 0, 
+            "y": 153.73062134855772, 
+            "x": 25.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.2158117070417826, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306458, 
+            "ymax": 0, 
+            "y": 146.25534388703304, 
+            "x": 26.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.06971582066543149, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306459, 
+            "ymax": 0, 
+            "y": 105.3689639764625, 
+            "x": 27.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.027527579741874256, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306460, 
+            "ymax": 0, 
+            "y": 75.9925389571059, 
+            "x": 28.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.1993865147695678, 
+            "yTitle": "no. of strip digis per event"
+        }, 
+        {
+            "run": 306462, 
+            "ymax": 0, 
+            "y": 43.682836129245516, 
+            "x": 29.0, 
+            "ymin": 0, 
+            "hTitle": "no. of strip digis per event", 
+            "yErr": 0.028898887907128665, 
+            "yTitle": "no. of strip digis per event"
+        }
+    ]
+}
