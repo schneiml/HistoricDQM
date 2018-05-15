@@ -7612,22 +7612,7 @@
                 "MeanT0_MB4_YB2" 	                
             ]
         },
-        {
-            "name": "t0_correlation_plot_MB1_MB4",
-            "corr": true,
-            "files": [
-                "MeanT0_MB1_YB0",
-		"MeanT0_MB4_YB0"
-            ]
-        },
-        {
-            "name": "t0_correlation_plot_nPV_MB1",
-            "corr": true,
-            "files": [
-		"NumberofPVertices_mean",
-                "MeanT0_MB1_YB0"
-            ]
-        }
+        
     ],
     "SingleMuonCSC": [
         {
