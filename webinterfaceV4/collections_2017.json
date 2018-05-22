@@ -7397,7 +7397,7 @@
                 "MeanT0_MB4_YB1",
                 "MeanT0_MB4_YB2" 	                
             ]
-        },              
+        }              
     ],
     "SingleMuonCSC": [
         {
@@ -7453,59 +7453,59 @@
             ]
         },
         {
-            "name": "actime",
+            "name": "AnodeCatodheTimeDiff",
             "corr": false,
             "files": [
-                "actime"
+                "AnodeCatodheTimeDiff"
             ]
         },
         {
-            "name": "segchi2",
+            "name": "SegmentNormChi2",
             "corr": false,
             "files": [
-                "segchi2"
+                "SegmentNormChi2"
             ]
         },
         {
-            "name": "segchi2prob",
+            "name": "SegmentChi2Probability",
             "corr": false,
             "files": [
-                "segchi2prob"
+                "SegmentChi2Probability"
             ]
         },
 	{
-            "name": "nhits",
+            "name": "nHitsPerSegment",
             "corr": false,
             "files": [
-                "nhits"
+                "nHitsPerSegment"
             ]
         },
 	{
-            "name": "nrechit",
+            "name": "nRechits",
             "corr": false,
             "files": [
-                "nrechit"
+                "nRechits"
             ]
         },
 	{
-            "name": "nsegments",
+            "name": "nSegments",
             "corr": false,
             "files": [
-                "nsegments"
+                "nSegments"
             ]
         },
 	{
-            "name": "nstripdigis",
+            "name": "firedStrips",
             "corr": false,
             "files": [
-                "nstripdigis"
+                "firedStrips"
             ]
         },
         {
-            "name": "nwiredigis",
+            "name": "firedWires",
             "corr": false,
             "files": [
-                "nwiredigis"
+                "firedWires"
             ]
         }
     ],
@@ -7515,40 +7515,40 @@
             "name": "Mean_of_Cluster_Size",
             "corr": false,
             "files": [
-                "CS_barrel",
-                "CS_endcap-",
-		"CS_endcap+"
+                "ClusterSize_barrel",
+                "ClusterSize_endcap-",
+		"ClusterSize_endcap+"
             ]
         },
         {
-            "name": "Mean_of_Bx_Wheels",
+            "name": "Mean_of_BX_Wheels",
             "corr": false,
             "files": [
-                "bx_w0",
-                "bx_wp1",
-                "bx_wp2",
-                "bx_wm1",
-                "bx_wm2"
+                "BX_w0",
+                "BX_wp1",
+                "BX_wp2",
+                "BX_wm1",
+                "BX_wm2"
             ]
         },
         {
-            "name": "Mean_of_Bx_pDisks",
+            "name": "Mean_of_BX_pDisks",
             "corr": false,
             "files": [
-                "bx_dp1",
-                "bx_dp2",
-                "bx_dp3",
-                "bx_dp4"
+                "BX_dp1",
+                "BX_dp2",
+                "BX_dp3",
+                "BX_dp4"
             ]
         },
         {
-            "name": "Mean_of_Bx_mDisks",
+            "name": "Mean_of_BX_mDisks",
             "corr": false,
             "files": [
-                "bx_dm1",
-                "bx_dm2",
-                "bx_dm3",
-                "bx_dm4"
+                "BX_dm1",
+                "BX_dm2",
+                "BX_dm3",
+                "BX_dm4"
             ]
         }
     ],
