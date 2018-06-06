@@ -134,6 +134,9 @@ class MeanRMS(BaseMetric):
         #print 'mean:',histo.GetMean(), histo.GetMeanError()
         return (histo.GetMean(), histo.GetRMS())
 
+class StdDev(BaseMetric):
+    def calculate(self, histo):
+        return (histo.GetStdDev(), histo.GetStdDevError())
 
 class MeanY(BaseMetric):
     def calculate(self, histo):

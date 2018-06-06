@@ -7324,5 +7324,479 @@
                 "TrkOverPVertices_ratio"
             ]
         }
+    ],
+    "SingleMuonDT": [
+        {
+            "name": "N_SL_With_Residuals_Outside_Range",
+            "corr": false,
+            "files": [
+                "MeanRes_Outside_0p01",
+		"SigmaRes_Outside_0p05"
+            ]
+        },
+        {
+            "name": "Mean_Of_Residuals",
+            "corr": false,
+            "files": [
+                "MeanRes_Phi",
+                "MeanRes_Theta_YB0",
+                "MeanRes_Theta_YB1",
+		"MeanRes_Theta_YB2"
+            ]
+        },
+        {		
+            "name": "Sigma_Of_Residuals",
+            "corr": false,
+            "files": [
+                "SigmaRes_Phi",
+                "SigmaRes_Theta_YB0",
+                "SigmaRes_Theta_YB1",
+		"SigmaRes_Theta_YB2"
+            ]
+        },
+        {
+            "name": "Mean_Of_T0_in_MB1",
+            "corr": false,
+            "files": [
+                "MeanT0_MB1_YB-2",
+                "MeanT0_MB1_YB-1",
+                "MeanT0_MB1_YB0",
+                "MeanT0_MB1_YB1",
+                "MeanT0_MB1_YB2" 	                
+            ]
+        },
+        {
+            "name": "Mean_Of_T0_MB2",
+            "corr": false,
+            "files": [
+                "MeanT0_MB2_YB-2",
+                "MeanT0_MB2_YB-1",
+                "MeanT0_MB2_YB0",
+                "MeanT0_MB2_YB1",
+                "MeanT0_MB2_YB2" 	                
+            ]
+        },
+        {
+            "name": "Mean_Of_T0_MB3",
+            "corr": false,
+            "files": [
+                "MeanT0_MB3_YB-2",
+                "MeanT0_MB3_YB-1",
+                "MeanT0_MB3_YB0",
+                "MeanT0_MB3_YB1",
+                "MeanT0_MB3_YB2" 	                
+            ]
+        },
+        {
+            "name": "Mean_Of_T0_MB4",
+            "corr": false,
+            "files": [
+                "MeanT0_MB4_YB-2",
+                "MeanT0_MB4_YB-1",
+                "MeanT0_MB4_YB0",
+                "MeanT0_MB4_YB1",
+                "MeanT0_MB4_YB2" 	                
+            ]
+        }              
+    ],
+    "SingleMuonCSC": [
+        {
+            "name": "Resolution",
+            "corr": false,
+            "files": [
+                "Resolution_m11a",
+                "Resolution_m11b",
+                "Resolution_m12",
+                "Resolution_m13",
+                "Resolution_m21",
+                "Resolution_m22",
+                "Resolution_m31",
+                "Resolution_m32",
+                "Resolution_m41",
+                "Resolution_m42",
+                "Resolution_p11a",
+                "Resolution_p11b",
+                "Resolution_p12",
+                "Resolution_p13",
+                "Resolution_p21",
+                "Resolution_p22",
+                "Resolution_p31",
+                "Resolution_p32",
+                "Resolution_p41",
+                "Resolution_p42"
+            ]
+        },
+        {
+            "name": "PedestalNoise",
+            "corr": false,
+            "files": [
+                "PedestalNoise_m11a",
+                "PedestalNoise_m11b",
+                "PedestalNoise_m12",
+                "PedestalNoise_m13",
+                "PedestalNoise_m21",
+                "PedestalNoise_m22",
+                "PedestalNoise_m31",
+                "PedestalNoise_m32",
+                "PedestalNoise_m41",
+                "PedestalNoise_m42",
+                "PedestalNoise_p11a",
+                "PedestalNoise_p11b",
+                "PedestalNoise_p12",
+                "PedestalNoise_p13",
+                "PedestalNoise_p21",
+                "PedestalNoise_p22",
+                "PedestalNoise_p31",
+                "PedestalNoise_p32",
+                "PedestalNoise_p41",
+                "PedestalNoise_p42"
+            ]
+        },
+        {
+            "name": "AnodeCatodheTimeDiff",
+            "corr": false,
+            "files": [
+                "AnodeCatodheTimeDiff"
+            ]
+        },
+        {
+            "name": "SegmentNormChi2",
+            "corr": false,
+            "files": [
+                "SegmentNormChi2"
+            ]
+        },
+        {
+            "name": "SegmentChi2Probability",
+            "corr": false,
+            "files": [
+                "SegmentChi2Probability"
+            ]
+        },
+	{
+            "name": "nHitsPerSegment",
+            "corr": false,
+            "files": [
+                "nHitsPerSegment"
+            ]
+        },
+	{
+            "name": "nRechits",
+            "corr": false,
+            "files": [
+                "nRechits"
+            ]
+        },
+	{
+            "name": "nSegments",
+            "corr": false,
+            "files": [
+                "nSegments"
+            ]
+        },
+	{
+            "name": "firedStrips",
+            "corr": false,
+            "files": [
+                "firedStrips"
+            ]
+        },
+        {
+            "name": "firedWires",
+            "corr": false,
+            "files": [
+                "firedWires"
+            ]
+        }
+    ],
+
+    "SingleMuonRPC": [
+        {
+            "name": "Mean_of_Cluster_Size",
+            "corr": false,
+            "files": [
+                "ClusterSize_barrel",
+                "ClusterSize_endcap-",
+		"ClusterSize_endcap+"
+            ]
+        },
+        {
+            "name": "Mean_of_BX_Wheels",
+            "corr": false,
+            "files": [
+                "BX_w0",
+                "BX_wp1",
+                "BX_wp2",
+                "BX_wm1",
+                "BX_wm2"
+            ]
+        },
+        {
+            "name": "Mean_of_BX_pDisks",
+            "corr": false,
+            "files": [
+                "BX_dp1",
+                "BX_dp2",
+                "BX_dp3",
+                "BX_dp4"
+            ]
+        },
+        {
+            "name": "Mean_of_BX_mDisks",
+            "corr": false,
+            "files": [
+                "BX_dm1",
+                "BX_dm2",
+                "BX_dm3",
+                "BX_dm4"
+            ]
+        }
+    ],
+	
+    "SingleMuonMuonPOG": [
+        {
+            "name": "Mean_Of_DimuonMass_Tight_Tight_Inclusive",
+            "corr": false,
+            "files": [
+                "Mean_Tight_DimuonMass_Inclusive"
+            ]
+        },
+        {
+            "name": "Mean_Of_DimuonMass_Tight_Tight_Barrel",
+            "corr": false,
+            "files": [
+                "Mean_Tight_DimuonMass_Barrel"
+            ]
+        },
+        {	
+            "name": "Mean_Of_DimuonMass_Tight_Tight_Endcap",
+            "corr": false,
+            "files": [
+                "Mean_Tight_DimuonMass_Endcap"
+            ]
+        },
+        {	
+            "name": "Mean_Of_Fraction_OfStaRecHits_inGlb",
+            "corr": false,
+            "files": [
+                "Mean_Of_Fraction_OfStaRecHits_inGlb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_PixBarrel_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_PixBarrel_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_PixEndcap_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_PixEndcap_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_TEC_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_TEC_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_TIB_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_TIB_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_TOB_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_TOB_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_TID_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_TID_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_ValidHits_Sta",
+            "corr": false,
+            "files": [
+                "Mean_Of_ValidHits_Sta"
+            ]
+        },
+        {	
+            "name": "Mean_Of_LostHits_Sta",
+            "corr": false,
+            "files": [
+                "Mean_Of_LostHits_Sta"
+            ]
+        },
+        {	
+            "name": "Mean_OfResolution_TkSta_Phi",
+            "corr": false,
+            "files": [
+                "Mean_Res_Phi"
+            ]
+        },
+        {	
+            "name": "Mean_OfResolution_TkSta_OneOverPt",
+            "corr": false,
+            "files": [
+                "Mean_Resolution_OneOverPt"
+            ]
+        },
+        {	
+            "name": "Mean_OfResolution_TkSta_QOverPt",
+            "corr": false,
+            "files": [
+                "Mean_Resolution_QOverPt"
+            ]
+        },
+        {	
+            "name": "Mean_Of_Seed_Pt",
+            "corr": false,
+            "files": [
+                "Mean_Of_Seed_Pt"
+            ]
+        },
+        {	
+            "name": "Mean_Of_Seed_Eta",
+            "corr": false,
+            "files": [
+                "Mean_Of_Seed_Eta"
+            ]
+        }
+
+
+
+    ],
+      "DoubleMuonMuonPOG": [
+        {
+            "name": "Mean_Of_DimuonMass_Tight_Tight_Inclusive",
+            "corr": false,
+            "files": [
+                "Mean_Tight_DimuonMass_Inclusive"
+            ]
+        },
+        {
+            "name": "Mean_Of_DimuonMass_Tight_Tight_Barrel",
+            "corr": false,
+            "files": [
+                "Mean_Tight_DimuonMass_Barrel"
+            ]
+        },
+        {	
+            "name": "Mean_Of_DimuonMass_Tight_Tight_Endcap",
+            "corr": false,
+            "files": [
+                "Mean_Tight_DimuonMass_Endcap"
+            ]
+        },
+        {	
+            "name": "Mean_Of_Fraction_OfStaRecHits_inGlb",
+            "corr": false,
+            "files": [
+                "Mean_Of_Fraction_OfStaRecHits_inGlb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_PixBarrel_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_PixBarrel_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_PixEndcap_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_PixEndcap_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_TEC_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_TEC_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_TIB_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_TIB_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_TOB_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_TOB_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_RecHits_TID_Glb",
+            "corr": false,
+            "files": [
+                "Mean_Of_RecHits_TID_Glb"
+            ]
+        },
+        {	
+            "name": "Mean_Of_ValidHits_Sta",
+            "corr": false,
+            "files": [
+                "Mean_Of_ValidHits_Sta"
+            ]
+        },
+        {	
+            "name": "Mean_Of_LostHits_Sta",
+            "corr": false,
+            "files": [
+                "Mean_Of_LostHits_Sta"
+            ]
+        },
+        {	
+            "name": "Mean_OfResolution_TkSta_Phi",
+            "corr": false,
+            "files": [
+                "Mean_Res_Phi"
+            ]
+        },
+        {	
+            "name": "Mean_OfResolution_TkSta_OneOverPt",
+            "corr": false,
+            "files": [
+                "Mean_Resolution_OneOverPt"
+            ]
+        },
+        {	
+            "name": "Mean_OfResolution_TkSta_QOverPt",
+            "corr": false,
+            "files": [
+                "Mean_Resolution_QOverPt"
+            ]
+        },
+        {	
+            "name": "Mean_Of_Seed_Pt",
+            "corr": false,
+            "files": [
+                "Mean_Of_Seed_Pt"
+            ]
+        },
+        {	
+            "name": "Mean_Of_Seed_Eta",
+            "corr": false,
+            "files": [
+                "Mean_Of_Seed_Eta"
+            ]
+        }
+
     ]
 }
