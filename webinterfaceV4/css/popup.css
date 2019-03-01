@@ -23,12 +23,12 @@
 	/*margin-bottom: 20px;*/
 	margin: 10px;
 	padding: 5px;
-	background: #eef7f9;
+	/* background: #eef7f9; */
 	border-radius: 2px;
 	display: inline-block;
 }
 
-.contact-input1>input,.contact-input1>textarea { //
+.contact-input1>input,.contact-input1>textarea {
 	display: block;
 	width: 30%;
 	height: 29px;
