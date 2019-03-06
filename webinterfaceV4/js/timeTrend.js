@@ -1,5 +1,170 @@
-class XRangePlot extends Chart {
+class TimeTrendPlot extends Chart {
     draw(xValues, yValues, yErr) {
+        if(this.filters.showScatterPlot)
+            this.drawScatterPlot(xValues, yValues, yErr)
+        else
+            this.drawXRangePlot(xValues, yValues, yErr)
+    }
+
+    drawScatterPlot(xValues, yValues, yErr) {
+        var self = this;
+        var yTitle = this.series[0].yTitle;
+        if (this.chart_obj !== null) {
+            this.chart_obj.destroy();
+        }
+	    this.update_runs_data(xValues);
+        var min_y = Math.min(...yValues.map(x => Math.min(...x)));
+        var max_y = Math.max(...yValues.map(x => Math.max(...x)));
+        var dist = Math.abs(max_y - min_y);
+        min_y -= 0.4 * dist;
+        max_y += 0.05 * dist;
+        var options = {
+            credits: {
+                enabled: false
+            },
+            chart: {
+                renderTo: (this.el_id),
+                zoomType: 'xy',
+                height: "470"
+            },
+            title: {
+                text: this.name
+            },
+            xAxis: {
+                title: {
+                    text: 'Run No.',
+                },
+                categories: [...new Set([].concat(...xValues))], 
+                plotBands: this.filters.fills ? this.bands : []
+            },
+            yAxis: [
+                {
+                    title: {
+                        text: yTitle,
+                    },
+                    min: min_y,
+                    max: max_y,
+                    tickPixelInterval: 60
+                },
+                {
+                    zoomEnabled: false,
+                    title: {
+                        text: "Run Duration [sec]",
+                    },
+                    opposite: true,
+                    visible: this.filters.durations && this.durations !== undefined,
+                    tickPixelInterval: 60
+                }
+            ],
+            plotOptions: this.filters.fills ? 
+                {
+                    series: {
+                        events: {
+                            legendItemClick: function () {
+                                if (this.name == "Fills") {
+                                    var plotBands = this.chart.xAxis[0].plotLinesAndBands;
+                                    if (!this.visible) {
+                                        for (var i = 0; i < plotBands.length; i++) {
+                                            this.chart.xAxis[0].plotLinesAndBands[i].hidden = false;
+                                            $(this.chart.xAxis[0].plotLinesAndBands[i].svgElem.element).show();
+                                        }
+                                    }
+                                    else {
+                                        for (var i = 0; i < plotBands.length; i++) {
+                                            this.chart.xAxis[0].plotLinesAndBands[i].hidden = true;
+                                            $(this.chart.xAxis[0].plotLinesAndBands[i].svgElem.element).hide();
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                :
+                {}
+            ,
+            series: this.filters.fills ?
+                [{ // "Fills" legend item
+                    name: "Fills",
+                    color: "#e6eaf2",
+                    type: "area",
+                    legendIndex: 100
+                }]
+                :
+                []
+        };
+
+        this.chart_obj = new Highcharts.Chart(options);
+
+        var show_dur = (this.filters.durations && this.durations);
+
+        for (var i = 0; i < this.files.length; i++) {
+            var tooltip = '<span style="color:{series.color}"></span><b>{point.series.name}</b><br> <b>Run No:</b> {point.category}<br/><b>'
+                + yTitle + ': </b>{point.y}<br><b>Fill No:</b> {point.fill}';
+            var data = [];
+            if (show_dur) {
+                tooltip += "<br><b>Duration:</b> {point.dur}";
+                data = yValues[i].map((y, k) => ({ y: y, fill: this.fills[k], dur: this.durations[k] }));
+            }
+            else {
+                data = yValues[i].map((y, k) => ({ y: y, fill: this.fills[k] }))
+            }
+            var fileName = this.get_file_label(i);
+            this.chart_obj.addSeries({
+                name: fileName,
+                type: 'scatter',
+                data: data,
+                color: colors[i],
+                marker: {
+                    radius: 3
+                },
+                tooltip: {
+                    headerFormat: "",
+                    pointFormat: tooltip
+                },
+                showInLegend: true,
+                animation: false
+            }, false);
+
+            if (this.filters.errors) {
+                this.chart_obj.addSeries({
+                    name: 'Bin Content Error',
+                    type: 'errorbar',
+                    data: yErr[i]
+                    ,
+                    marker: {
+                        radius: 3
+                    },
+                    tooltip: {
+                        headerFormat: "",
+                        pointFormat: '<b>{point.series.name}</b><br> <b>Run No:</b> {point.category}<br/><b>Error Range</b> : {point.low} to {point.high}<br/>'
+                    },
+                    animation: false
+                }, false);
+            }
+        }
+        if (this.filters.durations && this.durations) {
+            this.chart_obj.addSeries({
+                type: 'column',
+                name: 'Run Duration',
+                yAxis: 1,
+                color: "#a8a8a8",
+                zIndex: -1,
+                groupPadding: 0,
+                pointPadding: 0,
+                borderWidth: 0,
+                tooltip: {
+                    headerFormat: "",
+                    pointFormat: '<b>Run No</b>: {point.category}<br/><b>Duration</b>: {point.y}<br/>'
+                },
+                data: this.durations
+            });
+        }
+        var self = this;
+        setTimeout(function () { self.chart_obj.reflow(); }, 50);
+    }
+
+    drawXRangePlot(xValues, yValues, yErr) {
         var self = this;
         var yTitle = this.series[0].yTitle;
 
@@ -14,7 +179,7 @@ class XRangePlot extends Chart {
         
         min_y -= 0.4 * dist;
         max_y += 0.05 * dist;
-
+        
         var options = {
             credits: {
                 enabled: false
@@ -58,7 +223,7 @@ class XRangePlot extends Chart {
                     grouping: false,
                 }
             },
-            series: (this.filters.fills && false) ?
+            series: this.filters.fills ?
                 [{ // "Fills" legend item
                     name: "Fills",
                     color: "#e6eaf2",
@@ -70,6 +235,8 @@ class XRangePlot extends Chart {
         };
 
         this.chart_obj = new Highcharts.Chart(options);
+
+        this.fill_ranges = []
 
         var show_dur = (this.filters.durations && this.durations);
 
@@ -105,8 +272,31 @@ class XRangePlot extends Chart {
                     return index === 0 ? 0 : arr[index - 1].x2;
                 }
             }
+            
+            // Group by fill and sum durations
+            var fills = []
+            var lastFill = data[0].fill
+            var durSum = 0
+            var lastDurSum = 0;
 
-            this.chart_obj.xAxis[0].update({ tickPositions: ticks });
+            for(var j = 0; j < data.length; j++)
+            {
+                if(data[j].fill != lastFill)
+                {
+                    fills.push({color: "#e6eaf2", from: lastDurSum, to: durSum, id: "fills"})
+                    lastDurSum = durSum
+                    lastFill = data[j].fill
+                }
+
+                durSum += data[j].dur
+            }
+
+            // Remove every second
+            fills = fills.filter(function(_, i) {
+                return i % 2 === 0;
+            })
+
+            this.fill_ranges = this.fill_ranges.concat(fills)
 
             this.chart_obj.xAxis[0].update({
                 labels: {
@@ -121,13 +311,15 @@ class XRangePlot extends Chart {
 
                         return xValues[0][index];
                     },
-                }
+                },
+                tickPositions: ticks,
+                plotBands: this.filters.fills ? this.fill_ranges : []
             });
 
             if (this.filters.errors) {
                 this.chart_obj.addSeries({
                     type: 'xrange',
-                    pointWidth: 2,
+                    pointWidth: 3,
                     data: yErr[i].map((element, index) => {
                         return {
                             x: data[index].x,
@@ -145,7 +337,7 @@ class XRangePlot extends Chart {
 
                 this.chart_obj.addSeries({
                     type: 'xrange',
-                    pointWidth: 2,
+                    pointWidth: 3,
                     data: yErr[i].map((element, index) => {
                         return {
                             x: data[index].x,
@@ -165,7 +357,7 @@ class XRangePlot extends Chart {
             this.chart_obj.addSeries({
                 name: fileName,
                 type: 'xrange',
-                pointWidth: 1,
+                pointWidth: 2,
                 data: data,
                 color: colors[i],
                 borderColor: colors[i],

@@ -94,6 +94,7 @@ function update_filters() {
 	global_filters.fills = $("#show-fills")[0].checked;
 	global_filters.durations = $("#show-durations")[0].checked;
 	global_filters.regression = $("#show-regression")[0].checked;
+	global_filters.showScatterPlot = $("#show-scatter-plot")[0].checked;
 }
 
 function parse_runs_list(str) {

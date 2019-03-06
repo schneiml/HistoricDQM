@@ -14,7 +14,7 @@
 <script src="js/histogram-bellcurve.js"></script>
 
 <script src="js/chart.js"></script>
-<script src="js/xrange.js"></script>
+<script src="js/timeTrend.js"></script>
 <script src="js/corrplot.js"></script>
 <script src="js/chartList.js"></script>
 <script src="js/index.js"></script>
@@ -33,9 +33,7 @@ header {
 
 .contact-text {
 	overflow: hidden;
-	/*margin-bottom: 20px;*/
 	margin: 10px;
-	/*padding: 5px;*/
 	padding-bottom: 12px;
 	display: inline-block;
 	font-size: 15px;
@@ -45,20 +43,16 @@ header {
 .contact-input {
 	width: 20%;
 	overflow: hidden;
-	/*margin-bottom: 20px;*/
 	margin: 10px;
 	padding: 5px;
-	/* background: #eef7f9; */
 	border-radius: 2px;
 	display: inline-block;
 }
 .contact-input1 {
 	width: 23%;
 	overflow: hidden;
-	/*margin-bottom: 20px;*/
 	margin: 10px;
 	padding: 5px;
-	/* background: #eef7f9; */
 	border-radius: 2px;
 	display: inline-block;
 }
@@ -449,6 +443,10 @@ input[type="checkbox"] {
 			<div class="flex-item-center" style="margin-left:20px">
 				<input type="checkbox" id="show-regression" checked>
 				<span>Show regression lines</span>
+			</div>
+			<div class="flex-item-center" style="margin-left:20px">
+				<input type="checkbox" id="show-scatter-plot" checked>
+				<span>Show scatter plot</span>
 			</div>
 
 		</div>
