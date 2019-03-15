@@ -11,7 +11,7 @@ height:500px;
 }
 
 .popUp {
-	width: 175px;
+	max-width: 175px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
