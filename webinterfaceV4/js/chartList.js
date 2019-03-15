@@ -9,7 +9,7 @@ class ChartList {
             if (c.corr && c.files.length == 2)
                 self.charts.push(new CorrPlot(c, i++))
             else
-                self.charts.push(new ScatterPlot(c, i++));
+                self.charts.push(new TimeTrendPlot(c, i++))
         });
         this.need_update = true;
         this.page = 1;
