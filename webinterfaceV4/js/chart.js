@@ -113,6 +113,22 @@ class Chart {
 
         var filters = this.filters;
 
+        // Remove generated links
+        if(this.chart_obj != null) {
+            var chart_area = jQuery(this.chart_obj.renderTo).closest('.chartarea')
+            var linksInfo = chart_area.find(".links-info")
+            var omsLink = chart_area.find(".oms-link")
+            var rrLink = chart_area.find(".rr-link")
+
+            linksInfo.text("")
+
+            omsLink.text("")
+            omsLink.attr("href", "")
+            
+            rrLink.text("")
+			rrLink.attr("href", "")
+        }
+
         if (filters.runs.mode == 'run-filter-list' || filters.runs.mode == 'run-filter-file') {
             var runSet = filters.runs.val;
             for (var i = 0; i < this.series.length; i++) {
@@ -231,8 +247,19 @@ Chart.template_el = $(
             <div
                 style="min-width: 310px; height: 500px; max-width: 800px; margin: 0 auto"></div>
         </div>
-        <a class="popUp" href="#popup" rel="modal:open"
-            onclick="popup(this);">Change Ranges</a>
+        
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <a class="popUp" href="#popup" rel="modal:open"
+                    onclick="popup(this);">Change Ranges</a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <div>
+                    <span class="links-info"></span> <a class="oms-link" href="" target="_blank"></a>  <a class="rr-link" href="" target="_blank"></a>
+                </div>
+            </div>
+        </div>
     </div>`
 );
 

@@ -56,33 +56,38 @@ class TimeTrendPlot extends Chart {
                     tickPixelInterval: 60
                 }
             ],
-            plotOptions: this.filters.fills ? 
-                {
-                    series: {
-                        events: {
-                            legendItemClick: function () {
-                                if (this.name == "Fills") {
-                                    var plotBands = this.chart.xAxis[0].plotLinesAndBands;
-                                    if (!this.visible) {
-                                        for (var i = 0; i < plotBands.length; i++) {
-                                            this.chart.xAxis[0].plotLinesAndBands[i].hidden = false;
-                                            $(this.chart.xAxis[0].plotLinesAndBands[i].svgElem.element).show();
-                                        }
+            plotOptions: {
+                series: {
+                    events: this.filters.fills ? {
+                        legendItemClick: function () {
+                            if (this.name == "Fills") {
+                                var plotBands = this.chart.xAxis[0].plotLinesAndBands;
+                                if (!this.visible) {
+                                    for (var i = 0; i < plotBands.length; i++) {
+                                        this.chart.xAxis[0].plotLinesAndBands[i].hidden = false;
+                                        $(this.chart.xAxis[0].plotLinesAndBands[i].svgElem.element).show();
                                     }
-                                    else {
-                                        for (var i = 0; i < plotBands.length; i++) {
-                                            this.chart.xAxis[0].plotLinesAndBands[i].hidden = true;
-                                            $(this.chart.xAxis[0].plotLinesAndBands[i].svgElem.element).hide();
-                                        }
+                                }
+                                else {
+                                    for (var i = 0; i < plotBands.length; i++) {
+                                        this.chart.xAxis[0].plotLinesAndBands[i].hidden = true;
+                                        $(this.chart.xAxis[0].plotLinesAndBands[i].svgElem.element).hide();
                                     }
                                 }
                             }
                         }
+                    } : {},
+                    allowPointSelect: true,
+                    point: {
+                        events: {
+                            click: function () {
+                                var parent = jQuery(this.series.chart.container).closest('.chartarea')
+                                self.update_links(parent, this.category)
+                            }
+                        }
                     }
                 }
-                :
-                {}
-            ,
+            },
             series: this.filters.fills ?
                 [{ // "Fills" legend item
                     name: "Fills",
@@ -221,6 +226,36 @@ class TimeTrendPlot extends Chart {
             plotOptions: {
                 xrange: {
                     grouping: false,
+                },
+                series: {
+                    events: this.filters.fills ? {
+                        legendItemClick: function () {
+                            if (this.name == "Fills") {
+                                var plotBands = this.chart.xAxis[0].plotLinesAndBands;
+                                if (!this.visible) {
+                                    for (var i = 0; i < plotBands.length; i++) {
+                                        this.chart.xAxis[0].plotLinesAndBands[i].hidden = false;
+                                        $(this.chart.xAxis[0].plotLinesAndBands[i].svgElem.element).show();
+                                    }
+                                }
+                                else {
+                                    for (var i = 0; i < plotBands.length; i++) {
+                                        this.chart.xAxis[0].plotLinesAndBands[i].hidden = true;
+                                        $(this.chart.xAxis[0].plotLinesAndBands[i].svgElem.element).hide();
+                                    }
+                                }
+                            }
+                        }
+                    } : {},
+                    allowPointSelect: true,
+                    point: {
+                        events: {
+                            click: function () {
+                                var parent = jQuery(this.series.chart.container).closest('.chartarea')
+                                self.update_links(parent, this.run)
+                            }
+                        }
+                    }
                 }
             },
             series: this.filters.fills ?
@@ -261,10 +296,11 @@ class TimeTrendPlot extends Chart {
                 data.push({ 
                         x: prev_x2, 
                         x2: prev_x2 + raw[j].dur, 
-                        y: raw[j].y, run: xValues[0][j], 
+                        y: raw[j].y, 
+                        run: xValues[0][j], 
                         dur: raw[j].dur, 
                         fill: raw[j].fill,
-                        err: yErr[i][j][1] - yErr[i][j][0]
+                        err: yErr[i][j][1] - yErr[i][j][0],
                     });
                 ticks.push(prev_x2 + (raw[j].dur / 2));
                 
@@ -319,7 +355,7 @@ class TimeTrendPlot extends Chart {
             if (this.filters.errors) {
                 this.chart_obj.addSeries({
                     type: 'xrange',
-                    pointWidth: 3,
+                    pointWidth: 6,
                     data: yErr[i].map((element, index) => {
                         return {
                             x: data[index].x,
@@ -337,7 +373,7 @@ class TimeTrendPlot extends Chart {
 
                 this.chart_obj.addSeries({
                     type: 'xrange',
-                    pointWidth: 3,
+                    pointWidth: 6,
                     data: yErr[i].map((element, index) => {
                         return {
                             x: data[index].x,
@@ -357,7 +393,7 @@ class TimeTrendPlot extends Chart {
             this.chart_obj.addSeries({
                 name: fileName,
                 type: 'xrange',
-                pointWidth: 2,
+                pointWidth: 3,
                 data: data,
                 color: colors[i],
                 borderColor: colors[i],
@@ -373,6 +409,19 @@ class TimeTrendPlot extends Chart {
 
         var self = this;
         setTimeout(function () { self.chart_obj.reflow(); }, 50);
+    }
+
+    update_links(chart_area, run_nr) {
+        var linksInfo = chart_area.find(".links-info")
+        var omsLink = chart_area.find(".oms-link")
+        var rrLink = chart_area.find(".rr-link")
+
+        linksInfo.text("View run " + run_nr + " in:")
+        omsLink.text("OMS")
+        rrLink.text("RR")
+        
+        omsLink.attr("href", "https://cmsoms.cern.ch/cms/runs/report?cms_run=" + run_nr)
+        rrLink.attr("href", "https://cmsrunregistry.web.cern.ch/offline/workspaces/global?run_number=" + run_nr)
     }
 
     update_runs_data(xValues) {
