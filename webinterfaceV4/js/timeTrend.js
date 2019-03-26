@@ -12,12 +12,22 @@ class TimeTrendPlot extends Chart {
         if (this.chart_obj !== null) {
             this.chart_obj.destroy();
         }
-	    this.update_runs_data(xValues);
-        var min_y = Math.min(...yValues.map(x => Math.min(...x)));
-        var max_y = Math.max(...yValues.map(x => Math.max(...x)));
-        var dist = Math.abs(max_y - min_y);
-        min_y -= 0.4 * dist;
-        max_y += 0.05 * dist;
+        this.update_runs_data(xValues);
+        
+        // Calculate y ranges using RMS (root mean square)
+        // Concatenate values from different series to one array
+        var values = yValues.reduce((all, cur) => all.concat(cur), [])
+
+        var yValuesSum = values.reduce((total, num) => total + num, 0)
+        var mean = yValuesSum / values.length
+
+        var squares = values.map(x => x * x)
+        var square_sum = squares.reduce((total, num) => total + num, 0)
+        var rms = Math.sqrt(square_sum / squares.length)
+
+        var min_y = mean - (1.5 * rms)
+        var max_y = mean + (1.5 * rms)
+
         var options = {
             credits: {
                 enabled: false
@@ -178,12 +188,20 @@ class TimeTrendPlot extends Chart {
         }
 
         this.update_runs_data(xValues);
-        var min_y = Math.min(...yValues.map(x => Math.min(...x)));
-        var max_y = Math.max(...yValues.map(x => Math.max(...x)));
-        var dist = Math.abs(max_y - min_y);
-        
-        min_y -= 0.4 * dist;
-        max_y += 0.05 * dist;
+
+        // Calculate y ranges using RMS (root mean square)
+        // Concatenate values from different series to one array
+        var values = yValues.reduce((all, cur) => all.concat(cur), [])
+
+        var yValuesSum = values.reduce((total, num) => total + num, 0)
+        var mean = yValuesSum / values.length
+
+        var squares = values.map(x => x * x)
+        var square_sum = squares.reduce((total, num) => total + num, 0)
+        var rms = Math.sqrt(square_sum / squares.length)
+
+        var min_y = mean - (1.5 * rms)
+        var max_y = mean + (1.5 * rms)
         
         var options = {
             credits: {
