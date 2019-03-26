@@ -544,8 +544,6 @@ input[type="checkbox"] {
 		</div>
 	</div>
 
-	<!-- <div id="list-cotnainer">
-	</div> -->
 	<div style="width:100%">
 		<div id="body">
 		</div>
@@ -556,17 +554,16 @@ input[type="checkbox"] {
 	</div>
 	<div id="popup" class="modal" hidden>
 		<div class="modal-content">
-			<div id="inputArea" style="text-align:center">
-				<span class="contact-input1">
-					<label><input id="start" placeholder="From"></input></label>
-				</span>
-				<span class="contact-input1">
-					<label><input id="end" placeholder="To"></input></label>
-				</span>
+			<div id="popup-chart" class="chart"></div>
+			<div class="text-center" style="padding-top: 15px; padding-bottom: 15px;">
+				<span  style="display: inline-block; width: 100px;">Run range:</span>
+				<label style="display: inline-block; width: 100px;"><input id="start" placeholder="From"></input></label>
+				<label style="display: inline-block; width: 100px;"><input id="end" placeholder="To"></input></label>
+				<span  style="display: inline-block; width: 100px;">Y range:</span>
+				<label style="display: inline-block; width: 100px;"><input id="start-y" placeholder="From"></input></label>
+				<label style="display: inline-block; width: 100px;"><input id="end-y" placeholder="To"></input></label>
 			</div>
-			<div class="contact-submit1" style=""><button onclick="updatePopup();">Submit</button></div>
-			<div id="popup-chart" class="chart">
-			</div>
+			<div class="contact-submit-center" style="padding-bottom: 15px;"><button onclick="updatePopup();">Submit</button></div>
 		</div>
 	</div>
 
