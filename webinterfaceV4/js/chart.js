@@ -38,51 +38,63 @@ class Chart {
         this.series = Array(this.files.length).fill({});
         var files_loaded = 0;
         var files_data = Array(this.files.length);
+        var names = []
+        var requests = []
         for (let i = 0; i < this.files.length; i++) {
-            $.ajax({
+            console.log("Loading: alljsons" + urlLink + "/" + this.files[i] + ".json")
+            var request = $.ajax({
                 dataType: "json",
                 url: ("alljsons" + urlLink + "/" + this.files[i] + ".json"),
                 async: true,
                 success: function (data) {
                     var name = Object.keys(data)[0];
+                    names.push(name)
                     files_data[i] = data[name];
-                    if (files_data.length == self.files.length) {
-                        for (var j = 0; j < self.files.length; j++) {
-                            self.series[j] = { name: name };
-                            self.series[j].yTitle = files_data[j][0].yTitle;
-                            self.series[j].hTitle = files_data[j][0].hTitle;
-                            self.series[j].yValues = [];
-                            self.series[j].xValues = [];
-                            self.series[j].yErr = [];
-                        }
-                        var ids = Array(self.files.length).fill(0);
-                        for (var j = 0; j < files_data[0].length; j++) {
-                            var match = false;
-                            var p1 = files_data[0][j];
-                            for (var k = 1; k < self.files.length; k++) {
-                                while (ids[k] < files_data[k].length - 1 && files_data[0][j].run > files_data[k][ids[k]].run) {
-                                    ids[k]++;
-                                }
-                                if (p1.run === files_data[k][ids[k]].run) {
-                                    match = true;
-                                    var p2 = files_data[k][ids[k]];
-                                    self.series[k].xValues.push(p2.run);
-                                    self.series[k].yValues.push(p2.y);
-                                    self.series[k].yErr.push([p2.y - p2.yErr, p2.y + p2.yErr])
-                                }
-                            }
-                            if (match || self.files.length == 1) {
-                                self.series[0].xValues.push(p1.run);
-                                self.series[0].yValues.push(p1.y);
-                                self.series[0].yErr.push([p1.y - p1.yErr, p1.y + p1.yErr])
-                            }
-                        }
-                        self.initialized = true;
-                        self.on_data_ready();
-                    }
                 }
             });
+            requests.push(request)
         }
+
+        $.when(...requests).done(function(...results) {
+            for (let i = 0; i < names.length; i++) {
+                var name = names[i]
+                
+                if (files_data.length == self.files.length) {
+                    for (var j = 0; j < self.files.length; j++) {
+                        self.series[j] = { name: name };
+                        self.series[j].yTitle = files_data[j][0].yTitle;
+                        self.series[j].hTitle = files_data[j][0].hTitle;
+                        self.series[j].yValues = [];
+                        self.series[j].xValues = [];
+                        self.series[j].yErr = [];
+                    }
+                    var ids = Array(self.files.length).fill(0);
+                    for (var j = 0; j < files_data[0].length; j++) {
+                        var match = false;
+                        var p1 = files_data[0][j];
+                        for (var k = 1; k < self.files.length; k++) {
+                            while (ids[k] < files_data[k].length - 1 && files_data[0][j].run > files_data[k][ids[k]].run) {
+                                ids[k]++;
+                            }
+                            if (p1.run === files_data[k][ids[k]].run) {
+                                match = true;
+                                var p2 = files_data[k][ids[k]];
+                                self.series[k].xValues.push(p2.run);
+                                self.series[k].yValues.push(p2.y);
+                                self.series[k].yErr.push([p2.y - p2.yErr, p2.y + p2.yErr])
+                            }
+                        }
+                        if (match || self.files.length == 1) {
+                            self.series[0].xValues.push(p1.run);
+                            self.series[0].yValues.push(p1.y);
+                            self.series[0].yErr.push([p1.y - p1.yErr, p1.y + p1.yErr])
+                        }
+                    }
+                    self.initialized = true;
+                    self.on_data_ready();
+                }
+            }
+        })
     }
 
     on_data_ready() {
@@ -245,7 +257,7 @@ Chart.template_el = $(
     `<div class="chartarea">
         <div class="chart">
             <div
-                style="min-width: 310px; height: 500px; max-width: 800px; margin: 0 auto"></div>
+                style="min-width: 310px; height: 500px; max-width: 800px; margin: 0 auto; overflow: hidden;"></div>
         </div>
         
         <div class="row">

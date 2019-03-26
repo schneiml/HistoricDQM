@@ -480,7 +480,7 @@ class TimeTrendPlot extends Chart {
     get_file_label(i) {
         var fileName = this.files[i].split(".")[0]; //Hugo: basic name of the file
 
-        console.log(" Plot FileName = " + fileName);
+        // console.log(" Plot FileName = " + fileName);
 
         // Display the Labels of the PixelPhase1 multy plots in more readable way
 

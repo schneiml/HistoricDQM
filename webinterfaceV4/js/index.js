@@ -17,16 +17,16 @@ function load_dataset(name) {
 	var need_refresh = false;
 	update_filters();
 
-	console.log("index.js -> dataset name = ", name);
-	console.log("index.js -> chart_list = ", chart_list);
+	// console.log("index.js -> dataset name = ", name);
+	// console.log("index.js -> chart_list = ", chart_list);
 	//console.log("index.js -> need_update = ", need_update);
 	//console.log("index.js -> need_refresh = ", need_refresh);   
 	if (chart_list == null) {
 		need_refresh = true;
-		console.log("index.js -> chart_list == null -> put need_refresh = true");
+		// console.log("index.js -> chart_list == null -> put need_refresh = true");
 	}
 	else {
-		console.log("index.js -> chart_list != null");
+		// console.log("index.js -> chart_list != null");
 		if (name != chart_list.dataset) {
 			//        if (name != chart_list.dataset || need_update) { // Aris
 			console.log("index.js -> name != chart_list.dataset -> destroy all charts and create new ones");
@@ -52,7 +52,7 @@ function load_dataset(name) {
 		chart_list = new ChartList(name, collections[name]);
 		//console.log("index.js -> need_refresh = true");
 		//console.log("index.js -> new chart_list = ", chart_list);
-		console.log("index.js ->  chart_list.dataset = ", chart_list.dataset);
+		// console.log("index.js ->  chart_list.dataset = ", chart_list.dataset);
 	}
 	else {
 		chart_list.update();
@@ -146,7 +146,7 @@ function update_url() {
 
 		}
 	}
-	console.log("urlLink : " + urlLink);
+	// console.log("urlLink : " + urlLink);
 }
 
 function update_subsystem() {
@@ -164,7 +164,7 @@ function update_subsystem() {
 function update_collections() {
 
 	collec_file = "collections_" + $("#year").val() + ".json";
-	console.log("collection file  : " + collec_file);
+	// console.log("collection file  : " + collec_file);
 
 	$.getJSON(collec_file, function (data) {
 		//$.getJSON(collec_file, function (data) {
@@ -271,7 +271,7 @@ $(document).ready(
 		$("#apvMode").val("No Selection");
 		$("#search").click(
 			function () {
-				console.log("SUBMIT!");
+				// console.log("SUBMIT!");
 				year = $("#year").val();
 				dataSet = $("#dataSet").val();
 				apvMode = $("#apvMode").val();
@@ -281,7 +281,7 @@ $(document).ready(
 					alert("Please Make Selection");
 				} else {
 					update_url(apvMode, dataSet, subsystem, year);
-					console.log("update_url executed.............");
+					// console.log("update_url executed.............");
 					if (dataSet == "ZeroBias"
 						&& subsystem == "Pixel"
 						&& (apvMode == "" || apvMode == null)) {
