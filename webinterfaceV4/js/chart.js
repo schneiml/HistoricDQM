@@ -41,7 +41,6 @@ class Chart {
         var names = []
         var requests = []
         for (let i = 0; i < this.files.length; i++) {
-            console.log("Loading: alljsons" + urlLink + "/" + this.files[i] + ".json")
             var request = $.ajax({
                 dataType: "json",
                 url: ("alljsons" + urlLink + "/" + this.files[i] + ".json"),
