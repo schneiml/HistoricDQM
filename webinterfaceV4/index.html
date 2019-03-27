@@ -156,7 +156,14 @@ header {
 	width: 10%;
 }
 
-.contact-submit>button {
+.round-button-container {
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.contact-submit > button, .round-button-container > button {
 	display: inline-block;
 	vertical-align: top;
 	padding: 0 14px;
@@ -179,7 +186,7 @@ header {
 		rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
 }
 
-.contact-submit>button:active {
+.contact-submit > button:active, .round-button-container > button:active {
 	color: #6a95a9;
 	text-shadow: 0 1px rgba(255, 255, 255, 0.3);
 	background: #c9dfe9;
@@ -446,10 +453,6 @@ input[type="checkbox"] {
 				<input type="checkbox" id="show-regression" checked>
 				<span>Show regression lines</span>
 			</div>
-			<div class="flex-item-center" style="margin-left:20px">
-				<input type="checkbox" id="show-scatter-plot" checked>
-				<span>Show scatter plot</span>
-			</div>
 
 		</div>
 		<div>
@@ -459,8 +462,9 @@ input[type="checkbox"] {
 					<input id="per-page" type="number" value="6" style="display: inline; width: 40px">
 				</span>
 			</span>
-			<p class="contact-submit" style="text-align: center">
-				<button id="search">Submit</button>
+			<p class="round-button-container" style="text-align: center">
+				<button id="search">Scatter</button>
+				<button id="xrange-submit" style="margin-left: 5px;">XRange</button>
 			</p>
 
 		</div>
@@ -535,7 +539,7 @@ input[type="checkbox"] {
 	<hr>
 
 	<div>
-		<button class="contact-submit1" type="button" data-toggle="collapse" data-target="#list-container-collapse" style="margin-left: 10px; margin-bottom: 10px;">
+		<button type="button" data-toggle="collapse" data-target="#list-container-collapse" style="margin-left: 10px; margin-bottom: 10px;">
 			Toggle plot whitelist
 		</button>
 		<div class="collapse" id="list-container-collapse">
