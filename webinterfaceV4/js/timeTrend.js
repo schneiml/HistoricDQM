@@ -21,12 +21,13 @@ class TimeTrendPlot extends Chart {
         var yValuesSum = values.reduce((total, num) => total + num, 0)
         var mean = yValuesSum / values.length
 
-        var squares = values.map(x => x * x)
-        var square_sum = squares.reduce((total, num) => total + num, 0)
-        var rms = Math.sqrt(square_sum / squares.length)
+        var yValuesSquareSum = values.reduce((total, num) => total + (num * num), 0)
+        var meanOfSquares = yValuesSquareSum / values.length
 
-        var min_y = mean - (1.5 * rms)
-        var max_y = mean + (1.5 * rms)
+        var rms = Math.sqrt(meanOfSquares - (mean * mean))
+
+        var min_y = mean - (5 * rms)
+        var max_y = mean + (5 * rms)
 
         var options = {
             credits: {
@@ -196,12 +197,13 @@ class TimeTrendPlot extends Chart {
         var yValuesSum = values.reduce((total, num) => total + num, 0)
         var mean = yValuesSum / values.length
 
-        var squares = values.map(x => x * x)
-        var square_sum = squares.reduce((total, num) => total + num, 0)
-        var rms = Math.sqrt(square_sum / squares.length)
+        var yValuesSquareSum = values.reduce((total, num) => total + (num * num), 0)
+        var meanOfSquares = yValuesSquareSum / values.length
 
-        var min_y = mean - (1.5 * rms)
-        var max_y = mean + (1.5 * rms)
+        var rms = Math.sqrt(meanOfSquares - (mean * mean))
+
+        var min_y = mean - (5 * rms)
+        var max_y = mean + (5 * rms)
         
         var options = {
             credits: {
@@ -373,7 +375,7 @@ class TimeTrendPlot extends Chart {
             if (this.filters.errors) {
                 this.chart_obj.addSeries({
                     type: 'xrange',
-                    pointWidth: 6,
+                    pointWidth: 9,
                     data: yErr[i].map((element, index) => {
                         return {
                             x: data[index].x,
@@ -391,7 +393,7 @@ class TimeTrendPlot extends Chart {
 
                 this.chart_obj.addSeries({
                     type: 'xrange',
-                    pointWidth: 6,
+                    pointWidth: 9,
                     data: yErr[i].map((element, index) => {
                         return {
                             x: data[index].x,
@@ -411,7 +413,7 @@ class TimeTrendPlot extends Chart {
             this.chart_obj.addSeries({
                 name: fileName,
                 type: 'xrange',
-                pointWidth: 3,
+                pointWidth: 6,
                 data: data,
                 color: colors[i],
                 borderColor: colors[i],
