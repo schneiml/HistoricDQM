@@ -125,7 +125,7 @@ class TimeTrendPlot extends Chart {
             else {
                 data = yValues[i].map((y, k) => ({ y: y, fill: this.fills[k] }))
             }
-            var fileName = this.get_file_label(i);
+            var fileName = this.get_file_label(i)
             this.chart_obj.addSeries({
                 name: fileName,
                 type: 'scatter',
@@ -346,6 +346,9 @@ class TimeTrendPlot extends Chart {
 
                 durSum += data[j].dur
             }
+            
+            // Add last fill
+            fills.push({color: "#e6eaf2", from: lastDurSum, to: durSum, id: "fills"})
 
             // Remove every second
             fills = fills.filter(function(_, i) {
@@ -459,9 +462,11 @@ class TimeTrendPlot extends Chart {
                 console.log(xValues[0].slice(i));
                 break;
             }
+            
             if (runs_data[curr].run === xValues[0][i]) {
                 this.fills[i] = runs_data[curr].lhcfill;
                 this.durations[i] = runs_data[curr].dur;
+
                 if (runs_data[curr].lhcfill !== last_fill) {
                     if (flag) {
                         this.bands.push({
@@ -471,11 +476,23 @@ class TimeTrendPlot extends Chart {
                             id: "fills"
                         });
                     }
-                    else start_i = i;
+                    else 
+                        start_i = i;
+                    
                     flag = !flag;
                     last_fill = runs_data[curr].lhcfill;
                 }
             }
+        }
+
+        // Add last fill if needed
+        if (flag) {
+            this.bands.push({
+                color: "#e6eaf2",
+                from: start_i - 0.5,
+                to: i - 1 + 0.5,
+                id: "fills"
+            });
         }
     }
 
