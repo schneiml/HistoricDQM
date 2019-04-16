@@ -125,6 +125,7 @@ class TimeTrendPlot extends Chart {
             else {
                 data = yValues[i].map((y, k) => ({ y: y, fill: this.fills[k] }))
             }
+            tooltip += "<br>Click on the data point to reveal urls to OMS and RR.";
             var fileName = this.get_file_label(i)
             this.chart_obj.addSeries({
                 name: fileName,
@@ -307,6 +308,7 @@ class TimeTrendPlot extends Chart {
             else {
                 raw = yValues[i].map((y, k) => ({ y: y, fill: this.fills[k], dur: 1 }))
             }
+            tooltip += "<br>Click on the data point to reveal urls to OMS and RR.";
             var fileName = this.get_file_label(i);
             
             var data = [];
