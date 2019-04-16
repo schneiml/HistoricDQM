@@ -247,6 +247,7 @@ class TimeTrendPlot extends Chart {
             plotOptions: {
                 xrange: {
                     grouping: false,
+                    borderRadius: 0,
                 },
                 series: {
                     events: this.filters.fills ? {
