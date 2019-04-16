@@ -344,7 +344,7 @@ input[type="checkbox"] {
 							<option>2015</option>
 							<option>2016</option>
 							<option>2017</option>
-							<option>2018</option>
+							<option selected>2018</option>
 						</select>
 					</label>
 				</p>
@@ -352,7 +352,7 @@ input[type="checkbox"] {
 					<label for="select" class="select"> 
 						<select id="dataSet" name="dataset" onchange="update_runDurationFile();">
 							<option value="" selected>Choose DataSet...</option>
-							<option>StreamExpress</option>
+							<option selected>StreamExpress</option>
 							<option>StreamExpressCosmics</option>
 							<option>StreamExpressCosmicsCommissioning</option>
 							<option>SingleMuon</option>
@@ -377,7 +377,7 @@ input[type="checkbox"] {
 						<select id="subsystem" name="subsystem"  onchange="update_subsystem();">
 							<option value="" selected>Choose Sub-System...</option>
 							<option>Pixel</option>
-							<option>PixelPhase1</option>
+							<option selected>PixelPhase1</option>
 							<option>Strips</option>
 							<option>Tracking</option>
 							<option>RecoErrors</option>
@@ -438,7 +438,7 @@ input[type="checkbox"] {
 
 		<div class="flex-container" style="margin-bottom:10px">
 			<div class="flex-item-center">
-				<input type="checkbox" id="show-errors">
+				<input type="checkbox" id="show-errors" checked>
 				<span>Show errors</span>
 			</div>
 			<div class="flex-item-center" style="margin-left:20px">
