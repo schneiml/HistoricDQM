@@ -257,6 +257,8 @@ header {
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
 
 .modal-dialog{
@@ -474,66 +476,67 @@ input[type="checkbox"] {
 		<!-- The Modal -->
 			<div id="myModal" class="modal">
 
-	     		  <!-- Modal content -->
-  				<div class="modal-content">
-    					<div class="modal-header">
-      					    <span class="close">&times;</span>
-      					    <h2>How to use the hDQM</h2>
-    					</div>
-				        <div class="modal-body">
-                                            <ul>
-					        <li>In the <b>RunRange(From)</b>, put <b>0</b> if you want to start from the first run of the collection </li>
-     					        <br>      
-      						<li>In the <b>RunRange(To)</b>, put <b>0</b> if you want to end  with the last run of the collection</li>
-      						<br>
-						
-						<li>Otherwise, set  a <b>Starting run</b>  and a <b>Final run</b>  in the appropriate <b>RunRange </b> buttons</li>
-						<br>
-      						<li><b>Notification 1:</b> If you select <b>Strips</b> you have the option to choose <b>PEAK</b> or <b>DECO</b> mode</li>
-      						<br>
-     					        <li><b>Notification 2:</b> If you select <b>Tracking</b> or <b>RecoErrors</b>  the only option you have is <b>PEAK+DECO</b> mode</li>
-						<br>
-						<li>There is a <b>Charts per page</b> counter left to the <b>Submit</b> button that specifies the number of plots to be drawn per page</li>
-      						<br>
-      						<li>Initially all the check buttons are ON(Activated)</li>
-     					        <br>      
-      						<li>Clicking <b>TWICE</b> in any check button you  select or de-select all the plots</li>
-      						<br>
-      						<li>Clicking <b>ONCE</b> in a button you can select individual plots or groups of plots</li>
-      						<br>
-     					        <li>By clicking in a legend, you can show or hide the points on the specific plot</li>
-      						<br>
-     						<li>With the left mouse button, you can do dynamic zooming</li>
-      						<br>
-      						<li>The <b>Reset zoom</b> button on the plot area resets the initial view of the plot</li>
- 						<br>
-						<li> There is a square button in the uper right place of each plot where you can left click and localy save an image of the plot</li>	
-      						<br>
-						<li> The dataset options:  <b>StreamExpressCosmicsCommissioning</b> and <b>CosmicsCommissioning</b> work only for Year:2017 and Subsystems: Strips  & PixelPhase1 </li>	
-      						<br>
-						<li> If you uncheck the <b>Filter Runs </b> check box <b> ALL </b> the runs will be displayed</li>	
-						<br>
-						<li> From <b>Filter Runs </b> drop down menu you can select  <b>Latest </b> to display the lastest number of runs</li>	
-      						<br>
-						<li> From <b>Filter Runs </b> drop down menu you can select  <b>Range  </b> to  display a specific run range</li>	
-      						<br>
-						<li> From <b>Filter Runs </b> drop down menu you can select  <b> List  </b> to display a list of runs separated by commas(if between the runs you put a <b> - </b> then you select all the runs in this range)</li>	
-      						<br>
-						<li> From <b>Filter Runs </b> drop down menu you can select  <b>File   </b> to  display runs from a predefined file with the same format as mentioned in the option <b> List  </b> above </li>	                        <br>
-						
-						<br>
-      						
-   
-    					    </ul> 
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>How to use the hDQM</h2>
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li>In the <b>RunRange(From)</b>, put <b>0</b> if you want to start from the first run of the collection</li>
+                <br>
+                <li>In the <b>RunRange(To)</b>, put <b>0</b> if you want to end with the last run of the collection</li>
+                <br>
+                <li>Otherwise, set a <b>Starting run</b> and a <b>Final run</b> in the appropriate <b>RunRange </b> buttons</li>
+                <br>
+                <li><b>Notification 1:</b> If you select <b>Strips</b> you have the option to choose <b>PEAK</b> or <b>DECO</b> mode</li>
+                <br>
+                <li><b>Notification 2:</b> If you select <b>Tracking</b> or <b>RecoErrors</b> the only option you have is <b>PEAK+DECO</b> mode</li>
+                <br>
+                <li>There is a <b>Charts per page</b> counter left to the <b>Submit</b> button that specifies the number of plots to be drawn per page</li>
+                <br>
+                <li>Initially all the check buttons are ON(Activated)</li>
+                <br>
+                <li>Clicking <b>TWICE</b> in any check button you select or de-select all the plots</li>
+                <br>
+                <li>Clicking <b>ONCE</b> in a button you can select individual plots or groups of plots</li>
+                <br>
+                <li>By clicking in a legend, you can show or hide the points on the specific plot</li>
+                <br>
+                <li>With the left mouse button, you can do dynamic zooming</li>
+                <br>
+                <li>The <b>Reset zoom</b> button on the plot area resets the initial view of the plot</li>
+                <br>
+                <li>There is a square button in the uper right place of each plot where you can left click and localy save an image of the plot</li>
+                <br>
+                <li>The dataset options: <b>StreamExpressCosmicsCommissioning</b> and <b>CosmicsCommissioning</b> work only for Year:2017 and Subsystems: Strips & PixelPhase1 </li>
+                <br>
+                <li>If you uncheck the <b>Filter Runs </b> check box <b> ALL </b> the runs will be displayed</li>
+                <br>
+                <li>From <b>Filter Runs </b> drop down menu you can select <b>Latest </b> to display the lastest number of runs</li>
+                <br>
+                <li>From <b>Filter Runs </b> drop down menu you can select <b>Range  </b> to display a specific run range</li>
+                <br>
+                <li>From <b>Filter Runs </b> drop down menu you can select <b> List  </b> to display a list of runs separated by commas(if between the runs you put a <b> - </b> then you select all the runs in this range)</li>
+                <br>
+                <li>From <b>Filter Runs </b> drop down menu you can select <b>File   </b> to display runs from a predefined file with the same format as mentioned in the option <b> List  </b> above </li>
+				<br>
+				
+				<li>Clicking <b>Scatter</b> will generate a Scatter plot where Y axis is used to represent both the value of the plot and the length of a run</li>
+				<br>
+				<li>Clicking <b>Run-length</b> will generate an XRange plot where every bar has a width proportional to the length of the run it represents</li>
+				<br>
+				<li>By clicking <b>Toggle plot whitelist</b> you can toggle a list where certain plots can be removed from display</li>
+				<br>
+				<li>By clicking <b>CHANGE RANGES</b> you can change both x and y axis ranges of the plot, and see the updated plot immediately</li>
+				<br>
+				<li>By clicking on every data point in the plot you can reveal urls to OMS and Run Registry for a selected run. Links will appear on the bottom right of the plot</li>
+            </ul>
+        </div>
+    </div>
 
-
-					</div>
-      					<div class="modal-footer">
-      					     <h3></h3>
-    					</div>
-  				</div>
-
-			</div>
+</div>
 		
 	</header>
 	<hr>
