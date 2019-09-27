@@ -23,7 +23,7 @@ plotdesc = ConfigParser()
 
 for f in cfgfiles:
   try: 
-    plotdesc.read_file(f)
+    plotdesc.read(unicode(f))
   except:
     print("Could not read %s, skipping..." % f)
 
@@ -31,7 +31,8 @@ for f in cfgfiles:
 # then, collect the data sources we have for each run
 
 def find_run_eos(number):
-  pass
+  return []
+  
 
 
 allfiles = set()
