@@ -1,5 +1,6 @@
 from __future__ import print_function
 
+from os import remove
 from sys import argv
 from glob import glob
 from tempfile import NamedTemporaryFile
@@ -8,9 +9,10 @@ from configparser import ConfigParser
 from multiprocessing import Pool
 
 import re
+import json
 import uproot
 
-CFGFILES = "cfg/*.ini"
+CFGFILES = "cfg/trendPlotsTrackingCosmics.ini"
 ROOTFILES = "/eos/cms/store/group/comm_dqm/DQMGUI_data/*/*/*/DQM*.root"
 RUNFOLDER = re.compile("Run (\d+)(;\d*)?") # pattern of the Run folder inside the TDirectory file
 PDPATTERN = re.compile("DQM_V\d+_R\d+__(.+__.+__.+)[.]root") # PD inside the file name
@@ -95,29 +97,48 @@ def process_file(f):
             try:
               f[name] = value
             except:
-              print("Could not write object for %s using uproot." % name)
+              #print("Could not write object for %s using uproot." % name)
+              pass
       outdata.append(({"run": run, "lumisection": lumi, "pd": pd}, t.name))
     return outdata
 
-
-  def extract_metric(tdirectory, plot, metadata):
-    # do the actual fitting work. This will need to load actual ROOT.
-    import ROOT
-    # extend object here
-    data = dict(metadata)
-    return data
-
-  def write_to_database(data):
-    # TODO: we probably want to keep a DB transaction open for each file.
-    pass
-
   mepaths = [(section.split(':')[1], plotdesc[section]['relativepath']) for section in plotdesc if section.startswith("plot:")]
   tdirectories = extract_mes(f, mepaths)
-  for metadata, tdirectory in tdirectories:
-    print(tdirectory, metadata)
+
+  # now that we have a pile of small root files, we load actual ROOT to do the fitting.
+
+  import ROOT
+  import metrics
+  from metrics import fits
+  from metrics import basic
+
+  def extract_metric(tobject, plot, metadata):
+    data = dict(metadata)
+    metric = eval(plot["metric"], {"fits": fits, "basic": basic})
+    data["value"] = metric.calculate(tobject)
+    return data
+
+  datas = []
+  for metadata, filename in tdirectories:
+    print(filename, metadata)
+    tdirectory = ROOT.TFile.Open(filename)
+
     for plot in plotdesc:
-      data = extract_metric(tdirectory, plot, metadata)
-      write_to_database(data)
+      if not plot.startswith("plot:"): continue
+      objname = plot.split(":")[1]
+      print(objname)
+      obj = tdirectory.Get(str(objname))
+      print(obj)
+      if not obj: continue
+      print(obj)
+      data = extract_metric(obj, plotdesc[plot], metadata)
+      datas.append(data)
+    #remove(filename)
+
+  with open("output.json", "w") as out:
+    for d in datas:
+      out.write(json.dumps(d))
+      out.write("\n")
 
 #pool = Pool(10)
 #for _ in pool.imap_unordered(process_file, allfiles):
